@@ -1,0 +1,12 @@
+name: triton
+channels:
+  - conda-forge
+dependencies:
+  - python>3
+  - pytest
+  - black
+  - pip
+  - pip:
+      - triton
+      - torch
+      - numpy
